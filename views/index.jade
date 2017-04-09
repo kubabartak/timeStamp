@@ -1,5 +1,12 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  h1 Timestamp microservice  
+  p. green  Example usage
+  code localhost:3000/June 15, 2016
+  br
+  code localhost:3000/1465941600
+  
+  
+  p. green Expected output is JSON
+  code { "natural": "June 15,2016", "unix":1465941600 }
