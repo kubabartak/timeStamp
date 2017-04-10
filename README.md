@@ -9,7 +9,7 @@ When string is passed as a parameter it check to see whether that string contain
 - If it does not contain a date or Unix timestamp, it returns null for those properties.
 
 Example usage:
-https://timestamp-ms.herokuapp.com/December%2015,%202015
-https://timestamp-ms.herokuapp.com/1450137600
+localhost:3000/December 2015, 15
+localhost:3000/1450137600
 Example output:
 { "unix": 1450137600, "natural": "December 15, 2015" }
